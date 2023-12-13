@@ -30,6 +30,8 @@ jobs:
         run: pip install robotframework-Faker
       - name: Requests
         run: pip install robotframework-requests
+      - name: soap
+        run:  pip install BeautifulSoup4
       - uses: actions/checkout@v2
       - name: executa
         run: robot -d results testeData.robot
