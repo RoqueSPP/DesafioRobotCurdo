@@ -27,6 +27,8 @@ jobs:
       - name: Run a one-line script
         run: pip install robotframework
       - name: Faker
+        run: pip install robotframework-SeleniumLibrary
+      - name: Faker
         run: pip install robotframework-Faker
       - name: Requests
         run: pip install robotframework-requests
