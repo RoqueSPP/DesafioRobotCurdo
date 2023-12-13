@@ -30,6 +30,7 @@ jobs:
         run: pip install robotframework-Faker
       - name: Requests
         run: pip install robotframework-requests
+      - uses: actions/checkout@v2
       - name: executa
         run: robot -d results testeData.robot
       - name: Make Directory for results
