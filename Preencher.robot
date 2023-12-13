@@ -5,7 +5,7 @@ Resource    Data.robot
 Resource    Locator.robot
 *** Variables ***
 
-${msg}     EU SEI AUTOMATIZAR COM ROBOTFRAMEWORK
+${msg}     EU SEI AUTOMATIZAR COM ROBOTFRAMEWORK!
 ${time}    5
 *** Keywords ***
 
